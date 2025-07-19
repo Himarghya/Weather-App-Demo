@@ -1,22 +1,33 @@
+html{
+    overflow-x: hidden;
+    background: url("https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148623068.jpg") no-repeat center center fixed;
+    background-size: cover;
+    
+}
 .WeatherWebsite{
     width:100%;
     display:flex;
     justify-content: center;
     font-size: 3rem;
     margin: 20px;
+    transform: translate(-1.5%);
+    text-shadow: 0px 0px 5px crimson;
 }
 .Main-Container{
     width:100%;
     display: flex;
     justify-content: center;
+   
 }
 .container{
     height: fit-content;
     width:fit-content;
-    border: 2px solid black;
+    border: 7px double black;
     border-bottom-left-radius: 15px  ;
     border-top-right-radius: 15px ;
     padding: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+     backdrop-filter: blur(20px);
 }
 .Box{
     display: flex;
@@ -59,6 +70,8 @@ label{
     border: 2px solid black;
     padding: 20px;
     padding-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.4);
+     backdrop-filter: blur(20px);
 
 
 }
@@ -71,6 +84,9 @@ label{
     display: grid;
     grid-template-columns: 14.2% 14.2% 14.2% 14.2% 14.2% 14.2% 14.6%;
     grid-template-rows: 32px 32px 32px 32px 32px;
+    background-color: rgba(255, 255, 255, 0.4);
+     backdrop-filter: blur(20px);
+
 }
 .DayOne{
     grid-area: 1/1/7/2;
