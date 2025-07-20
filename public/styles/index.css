@@ -22,12 +22,13 @@ html{
 .container{
     height: fit-content;
     width:fit-content;
-    border: 7px double black;
+    border: 2px dashed black;
     border-bottom-left-radius: 15px  ;
     border-top-right-radius: 15px ;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.4);
      backdrop-filter: blur(20px);
+     box-shadow:5px 10px 20px black,inset 0px 0px 20px rgba(0, 0, 0, 0.7);
 }
 .Box{
     display: flex;
@@ -67,53 +68,64 @@ label{
 .Parameters{
     height:fit-content;
     width: fit-content;
-    border: 2px solid black;
+    border: 2px dashed black;
+     box-shadow:5px 10px 20px black,inset 0px 0px 20px rgba(0, 0, 0, 0.7);
     padding: 20px;
     padding-bottom: 5px;
-    background-color: rgba(255, 255, 255, 0.4);
-     backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.6);
+     backdrop-filter: blur(40px);
+     border-radius: 25px;
 
 
 }
 .PreviousDays-container{
     width:100%;
     height: 160px;
-    border: 2px solid black;
+    border: 3px dotted black;
     margin-top: 5px;
     margin-bottom: 2px;
     display: grid;
     grid-template-columns: 14.2% 14.2% 14.2% 14.2% 14.2% 14.2% 14.6%;
     grid-template-rows: 32px 32px 32px 32px 32px;
-    background-color: rgba(255, 255, 255, 0.4);
-     backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow:5px 10px 20px black,inset 0px 0px 20px rgba(0, 0, 0, 0.7);
+
 
 }
 .DayOne{
     grid-area: 1/1/7/2;
     border-right: 2px solid black;
+    border-radius: 20px;
 }
 .DayTwo{
     grid-area: 1/2/7/3;
     border-right: 2px solid black;
+    border-radius: 20px;
 }
 .DayThree{
     grid-area: 1/3/7/4;
     border-right: 2px solid black;
+    border-radius: 20px;
 
 }
 .DayFour{
     grid-area: 1/4/7/5;
     border-right: 2px solid black;
+    border-radius: 20px;
 
 }
 .DayFive{
     grid-area: 1/5/7/6;
     border-right: 2px solid black;
+    border-radius: 20px;
 
 }
 .DaySix{
     grid-area: 1/6/7/7;
     border-right: 2px solid black;
+    border-radius: 20px;
 
 }
 .DaySeven{
@@ -123,11 +135,13 @@ label{
 h2{
     width: fit-content;
     margin-left: 40px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px dotted black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .icon1,.icon2,.icon3,.icon4,.icon5,.icon6,.icon7{
     display: flex;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .Future-Predictions{
     width:100%;
@@ -136,6 +150,7 @@ h2{
     font-size: 2rem;
     margin: 30px;
     transform: translate(-1%);
+    text-shadow: 0px 0px 5px crimson;
 
 }
 .CurrentWeather{
@@ -145,4 +160,5 @@ h2{
     margin: 20px;
     font-size: 2.5em;
     transform: translate(-1%);
+    text-shadow: 0px 0px 5px crimson;
 }
